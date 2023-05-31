@@ -1,0 +1,18 @@
+<div class="container py-5">
+    <form class="mx-auto" style="max-width: 25rem;" #form="ngForm" (ngSubmit)="login(form)">
+        <h1 class="mb-5 text-center">Inicio de sesión</h1>
+        <div class="input-group flex-nowrap">
+            <span class="input-group-text" id="addon-wrapping">Email</span>
+            <input id=email type="email" name="email" class="form-control" placeholder="Email" aria-label="email"
+                aria-describedby="addon-wrapping" [(ngModel)]="creds.email">
+        </div>
+        <div class="input-group flex-nowrap">
+            <span class="input-group-text" id="addon-wrapping">Contraseña</span>
+            <input id="password" type="password" name="password" class="form-control" placeholder="password" aria-label="password"
+                aria-describedby="addon-wrapping" [(ngModel)]="creds.password">
+        </div>
+        <div class="d-grid">
+            <button class="btn btn-lg btn-primary">Ingresar</button>
+        </div>
+    </form>
+</div>

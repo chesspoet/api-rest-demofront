@@ -1,0 +1,21 @@
+<div class="container mt-5" *ngIf="tasks">
+    <h3>Mis Tareas por hacer</h3>
+    <table class="mt-5 table table-hover">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Descripcion</th>
+                <th>Titulo</th>
+            </tr>
+
+        </thead>
+    </table>
+    <tbody>
+        <tr *ngFor="let task of tasks">
+            <td>{{task.id}}</td>
+            <td>{{task.descripcion}}</td>
+            <td>{{task.titulo}}</td>
+        </tr>
+    </tbody>
+
+</div>
