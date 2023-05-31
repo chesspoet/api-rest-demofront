@@ -1,0 +1,16 @@
+org\api\demo\Security\WebSecurityConfig.class
+org\api\demo\Security\JWTAuthenticationFilter.class
+org\api\demo\Security\JWTAuthorizationFilter.class
+org\api\demo\Security\Data.class
+org\api\demo\Config\CorsConfig$1.class
+org\api\demo\Controller\TodoController.class
+org\api\demo\Model\Task.class
+org\api\demo\Security\AuthCredencials.class
+org\api\demo\Model\Usuario.class
+org\api\demo\Security\TokenUtils.class
+org\api\demo\App.class
+org\api\demo\Repository\UsuarioRepository.class
+org\api\demo\Security\UserDetailsImpl.class
+org\api\demo\Config\CorsConfig.class
+org\api\demo\Repository\TodoRepository.class
+org\api\demo\Security\UserDetailServiceImpl.class
